@@ -1,15 +1,14 @@
-
 /*
 Efficient Vector Library targeting ESP32s3 chips,
 Using xtensa extended vector instructionsfor SIMD operations.
 
 Mike L.
 
-THIS IS A WORK IN PROGRESS
+THIS IS A WORK IN PROGRESS. DO NOT USE.
 */
 
 #include <stdint.h>
-#include <stdlib.h>
+#include <stdlib.h
 
 static inline size_t dtype_size(datatype dt) {
     switch (dt) {
