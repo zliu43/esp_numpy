@@ -29,6 +29,6 @@ enum datatype{
 typedef struct{
     size_t size,
     void *data,
-    datatype type
+    datatype dtype
 } vector;
 
